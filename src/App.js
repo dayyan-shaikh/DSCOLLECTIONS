@@ -1,12 +1,13 @@
 import "./App.css"
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
-import {Switch, Route,BrowserRouter} from 'react-router-dom'
+import {Switch, Route} from 'react-router-dom'
 import Product from "./components/Product";
 import Products from "./components/Products";
 import Contact from "./components/Contact";
 import Login from "./components/Login"
 import Register from "./components/Register";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
         <Route exact  path="/register"> <Register/></Route>
 
       </Switch>
-
+      <Footer />
 
 
       
