@@ -59,10 +59,10 @@ const Contact = () => {
                 <div className="card-header bg-success text-white text-uppercase"><i className="fa fa-home"></i> Address</div>
                 <div className="card-body">
                     <p>Shop No. 4</p>
-                    <p>New Hill View Apartment</p>
-                    <p>Navre Park, Ambernath (W)</p>
-                    <p> Email : <b><u>sumit.tpt07@gmail.com</u></b></p>
-                    <p>9966554477</p>
+                    <p>Krishna Marriage Hall</p>
+                    <p>Krushna Nagar, Ambernath (W)</p>
+                    <p> Email : <b><u>dayyan.shaikh973@gmail.com</u></b></p>
+                    <p>Phone: 888822211</p>
 
                 </div>
 

@@ -1,0 +1,11 @@
+/* Login */
+.form{
+    box-shadow: inset;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 5%;
+    width: 30%;
+    margin-left: 35%;
+    text-align: center;
+    padding: 30px 30px;
+}

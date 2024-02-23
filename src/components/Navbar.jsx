@@ -6,7 +6,7 @@ const Navbar = () => {
   const state = useSelector((state)=> state.handleCart)
   return (
     <div>
-      <nav className="navbar navbar-expand-lg bg-white py-3 shadow-sm">
+      <nav className="navbar navbar-expand-lg py-3 shadow-sm">
         <div className="container">
           <NavLink className="navbar-brand fw-bold fs-5" to="/">
             DS COLLECTION
@@ -31,15 +31,6 @@ const Navbar = () => {
                   to="/"
                 >
                   Home
-                </NavLink>
-              </li>
-              <li className="nav-item">
-                <NavLink
-                  className="nav-link active"
-                  aria-current="page"
-                  to="/about"
-                >
-                  About
                 </NavLink>
               </li>
               <li className="nav-item">

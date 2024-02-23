@@ -5,3 +5,9 @@
 .card img{
     aspect-ratio: 3/3;
 }
+
+.navbar{
+    background: rgb(222, 221, 221);
+    box-shadow: 4px 7px 7px 0 black;
+}
+
