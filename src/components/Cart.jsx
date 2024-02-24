@@ -4,7 +4,7 @@ import React from 'react'
 const Cart = () => {
   return (
     <div>
-      {/*  */}
+      <h1>Orders Added Successfully!!!</h1>
     </div>
   )
 }

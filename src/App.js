@@ -8,11 +8,13 @@ import Contact from "./components/Contact";
 import Login from "./components/Login"
 import Register from "./components/Register";
 import Footer from "./components/Footer";
+import Cart from "./components/Cart";
 
 function App() {
   return (
     <>
       <Navbar />
+      <Cart />
       <Switch>
         <Route exact  path="/" ><Home/></Route>
         <Route exact  path="/product"> <Product/> </Route>
@@ -23,7 +25,7 @@ function App() {
 
       </Switch>
       <Footer />
-
+     
 
       
     </>
