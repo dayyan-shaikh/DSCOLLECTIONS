@@ -14,7 +14,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <Cart />
+      
       <Switch>
         <Route exact  path="/" ><Home/></Route>
         <Route exact  path="/product"> <Product/> </Route>
@@ -22,7 +22,7 @@ function App() {
         <Route exact  path="/contact"> <Contact/></Route>
         <Route exact  path="/login"> <Login/></Route>
         <Route exact  path="/register"> <Register/></Route>
-
+        <Cart />
       </Switch>
       <Footer />
      
