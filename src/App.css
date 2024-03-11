@@ -11,3 +11,6 @@
     box-shadow: 4px 7px 7px 0 black;
 }
 
+body::-webkit-scrollbar {
+    display: none;
+  }
